@@ -98,7 +98,7 @@ func main() {
   flag.Parse()
 
   // Check if all the required parameters have been inserted
-  if (*netPtr == "") || (*srcPtr == "") {//|| (*nicPtr == "") {
+  if (*netPtr == "") || (*srcPtr == "") {
     log.Fatal("Missing parameters! Exiting...")
   }
 
