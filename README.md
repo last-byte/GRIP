@@ -13,8 +13,8 @@ $ go build main.go -o grip
 ```
 Usage:
 ```
-$ ./gorip2 -h
-Usage of ./gorip2:
+$ ./grip -h
+Usage of ./grip:
   -dst string
     	the destination IP address, default value is multicast (default "224.0.0.9")
   -metric int
